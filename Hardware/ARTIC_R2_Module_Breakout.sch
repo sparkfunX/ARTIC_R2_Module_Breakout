@@ -10725,12 +10725,16 @@ https://chemandy.com/calculators/coplanar-waveguide-with-ground-calculator.htm
 Core thickness: 1.55mm
 Er = 4.6
 32 mil track with 5 mil gap = 50.9 Ohms</text>
-<text x="334.772" y="229.362" size="1.778" layer="97">The ARTIC must be held in
-reset while programming flash</text>
+<text x="365.252" y="224.282" size="1.778" layer="97" align="bottom-center">The ARTIC must be held in
+reset while programming flash.
+Use a jumper wire to link
+RESETB to GND.</text>
 <wire x1="431.8" y1="205.74" x2="251.46" y2="205.74" width="0.2032" layer="97" style="longdash"/>
 <text x="271.78" y="213.36" size="5.08" layer="94">LED</text>
 <wire x1="251.46" y1="205.74" x2="0" y2="205.74" width="0.2032" layer="97" style="longdash"/>
 <wire x1="251.46" y1="205.74" x2="251.46" y2="279.4" width="0.2032" layer="97" style="longdash"/>
+<text x="80.518" y="230.632" size="3.81" layer="97" rot="R90">2 x PRT-11541</text>
+<text x="14.478" y="230.632" size="3.81" layer="97" rot="R90">2 x PRT-11540</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -10786,34 +10790,34 @@ reset while programming flash</text>
 <attribute name="NAME" x="335.28" y="254.254" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="335.28" y="241.046" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
-<instance part="R9" gate="G$1" x="276.86" y="248.92" smashed="yes" rot="R90">
-<attribute name="NAME" x="275.336" y="248.92" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="278.384" y="248.92" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R9" gate="G$1" x="276.86" y="251.46" smashed="yes" rot="R90">
+<attribute name="NAME" x="275.336" y="251.46" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="278.384" y="251.46" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="D4" gate="G$1" x="276.86" y="238.76" smashed="yes">
-<attribute name="NAME" x="273.431" y="234.188" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="278.765" y="234.188" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<instance part="D4" gate="G$1" x="276.86" y="241.3" smashed="yes">
+<attribute name="NAME" x="273.431" y="236.728" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="278.765" y="236.728" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
-<instance part="GND49" gate="1" x="276.86" y="228.6" smashed="yes">
-<attribute name="VALUE" x="276.86" y="228.346" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND49" gate="1" x="276.86" y="231.14" smashed="yes">
+<attribute name="VALUE" x="276.86" y="230.886" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="LOGO2" gate="G$1" x="302.26" y="33.02" smashed="yes"/>
 <instance part="LOGO3" gate="G$1" x="302.26" y="33.02" smashed="yes"/>
 <instance part="SUPPLY1" gate="G$1" x="68.58" y="233.68" smashed="yes">
 <attribute name="VALUE" x="68.58" y="236.474" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="U$22" gate="G$1" x="170.18" y="243.84" smashed="yes">
-<attribute name="VALUE" x="157.48" y="226.06" size="1.778" layer="96"/>
-<attribute name="NAME" x="157.734" y="262.89" size="1.778" layer="95"/>
+<instance part="U$22" gate="G$1" x="170.18" y="246.38" smashed="yes">
+<attribute name="VALUE" x="157.48" y="228.6" size="1.778" layer="96"/>
+<attribute name="NAME" x="157.734" y="265.43" size="1.778" layer="95"/>
 </instance>
-<instance part="SUPPLY2" gate="G$1" x="193.04" y="233.68" smashed="yes">
-<attribute name="VALUE" x="193.04" y="236.474" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY2" gate="G$1" x="193.04" y="236.22" smashed="yes">
+<attribute name="VALUE" x="193.04" y="239.014" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="GND1" gate="1" x="152.4" y="226.06" smashed="yes">
-<attribute name="VALUE" x="152.4" y="225.806" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND1" gate="1" x="152.4" y="228.6" smashed="yes">
+<attribute name="VALUE" x="152.4" y="228.346" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="SUPPLY3" gate="VDD" x="187.96" y="259.08" smashed="yes">
-<attribute name="VALUE" x="187.96" y="261.874" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY3" gate="VDD" x="187.96" y="261.62" smashed="yes">
+<attribute name="VALUE" x="187.96" y="264.414" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="J1" gate="G$1" x="40.64" y="251.46" smashed="yes" rot="R180">
 <attribute name="VALUE" x="40.64" y="271.526" size="1.778" layer="96" font="vector" rot="R180"/>
@@ -10827,14 +10831,14 @@ reset while programming flash</text>
 <attribute name="VALUE" x="50.8" y="251.206" size="1.778" layer="96" font="vector" rot="MR180"/>
 <attribute name="NAME" x="50.8" y="225.552" size="1.778" layer="95" font="vector" rot="MR180"/>
 </instance>
-<instance part="SUPPLY4" gate="VDD" x="276.86" y="256.54" smashed="yes">
-<attribute name="VALUE" x="276.86" y="259.334" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY4" gate="VDD" x="276.86" y="259.08" smashed="yes">
+<attribute name="VALUE" x="276.86" y="261.874" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="E1" gate="G$1" x="195.58" y="261.62" smashed="yes">
-<attribute name="NAME" x="198.628" y="261.62" size="1.778" layer="95" font="vector"/>
+<instance part="E1" gate="G$1" x="195.58" y="264.16" smashed="yes">
+<attribute name="NAME" x="198.628" y="264.16" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="GND6" gate="1" x="198.12" y="254" smashed="yes">
-<attribute name="VALUE" x="198.12" y="253.746" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND6" gate="1" x="198.12" y="256.54" smashed="yes">
+<attribute name="VALUE" x="198.12" y="256.286" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -10865,19 +10869,19 @@ reset while programming flash</text>
 </segment>
 <segment>
 <pinref part="U$22" gate="G$1" pin="GND"/>
-<wire x1="154.94" y1="231.14" x2="152.4" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="233.68" x2="152.4" y2="233.68" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="152.4" y1="231.14" x2="152.4" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="233.68" x2="152.4" y2="231.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
 <pinref part="E1" gate="G$1" pin="GND"/>
-<wire x1="198.12" y1="256.54" x2="198.12" y2="259.08" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="259.08" x2="198.12" y2="261.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="D4" gate="G$1" pin="C"/>
 <pinref part="GND49" gate="1" pin="GND"/>
-<wire x1="276.86" y1="233.68" x2="276.86" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="236.22" x2="276.86" y2="233.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PWR_EN" class="0">
@@ -10888,8 +10892,8 @@ reset while programming flash</text>
 </segment>
 <segment>
 <pinref part="U$22" gate="G$1" pin="PWR_EN"/>
-<wire x1="185.42" y1="231.14" x2="187.96" y2="231.14" width="0.1524" layer="91"/>
-<label x="187.96" y="231.14" size="1.27" layer="95" xref="yes"/>
+<wire x1="185.42" y1="233.68" x2="187.96" y2="233.68" width="0.1524" layer="91"/>
+<label x="187.96" y="233.68" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="VDD" class="0">
@@ -10901,14 +10905,14 @@ reset while programming flash</text>
 </segment>
 <segment>
 <pinref part="U$22" gate="G$1" pin="3.3V"/>
-<wire x1="185.42" y1="251.46" x2="187.96" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="254" x2="187.96" y2="254" width="0.1524" layer="91"/>
 <pinref part="SUPPLY3" gate="VDD" pin="VDD"/>
-<wire x1="187.96" y1="251.46" x2="187.96" y2="259.08" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="254" x2="187.96" y2="261.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
 <pinref part="SUPPLY4" gate="VDD" pin="VDD"/>
-<wire x1="276.86" y1="254" x2="276.86" y2="256.54" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="256.54" x2="276.86" y2="259.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FLSH_SCLK" class="0">
@@ -10919,8 +10923,8 @@ reset while programming flash</text>
 </segment>
 <segment>
 <pinref part="U$22" gate="G$1" pin="FLSH_SCLK"/>
-<wire x1="185.42" y1="241.3" x2="187.96" y2="241.3" width="0.1524" layer="91"/>
-<label x="187.96" y="241.3" size="1.27" layer="95" xref="yes"/>
+<wire x1="185.42" y1="243.84" x2="187.96" y2="243.84" width="0.1524" layer="91"/>
+<label x="187.96" y="243.84" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="FLSH_SI" class="0">
@@ -10931,8 +10935,8 @@ reset while programming flash</text>
 </segment>
 <segment>
 <pinref part="U$22" gate="G$1" pin="FLSH_SI"/>
-<wire x1="185.42" y1="243.84" x2="187.96" y2="243.84" width="0.1524" layer="91"/>
-<label x="187.96" y="243.84" size="1.27" layer="95" xref="yes"/>
+<wire x1="185.42" y1="246.38" x2="187.96" y2="246.38" width="0.1524" layer="91"/>
+<label x="187.96" y="246.38" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="FLSH_SO" class="0">
@@ -10943,8 +10947,8 @@ reset while programming flash</text>
 </segment>
 <segment>
 <pinref part="U$22" gate="G$1" pin="FLSH_SO"/>
-<wire x1="185.42" y1="246.38" x2="187.96" y2="246.38" width="0.1524" layer="91"/>
-<label x="187.96" y="246.38" size="1.27" layer="95" xref="yes"/>
+<wire x1="185.42" y1="248.92" x2="187.96" y2="248.92" width="0.1524" layer="91"/>
+<label x="187.96" y="248.92" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="FLSH_CEN" class="0">
@@ -10955,8 +10959,8 @@ reset while programming flash</text>
 </segment>
 <segment>
 <pinref part="U$22" gate="G$1" pin="FLSH_CEN"/>
-<wire x1="185.42" y1="248.92" x2="187.96" y2="248.92" width="0.1524" layer="91"/>
-<label x="187.96" y="248.92" size="1.27" layer="95" xref="yes"/>
+<wire x1="185.42" y1="251.46" x2="187.96" y2="251.46" width="0.1524" layer="91"/>
+<label x="187.96" y="251.46" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SCLK" class="0">
@@ -10967,8 +10971,8 @@ reset while programming flash</text>
 </segment>
 <segment>
 <pinref part="U$22" gate="G$1" pin="SCLK"/>
-<wire x1="154.94" y1="241.3" x2="152.4" y2="241.3" width="0.1524" layer="91"/>
-<label x="152.4" y="241.3" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="154.94" y1="243.84" x2="152.4" y2="243.84" width="0.1524" layer="91"/>
+<label x="152.4" y="243.84" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="COPI" class="0">
@@ -10979,8 +10983,8 @@ reset while programming flash</text>
 </segment>
 <segment>
 <pinref part="U$22" gate="G$1" pin="COPI"/>
-<wire x1="154.94" y1="238.76" x2="152.4" y2="238.76" width="0.1524" layer="91"/>
-<label x="152.4" y="238.76" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="154.94" y1="241.3" x2="152.4" y2="241.3" width="0.1524" layer="91"/>
+<label x="152.4" y="241.3" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CIPO" class="0">
@@ -10991,8 +10995,8 @@ reset while programming flash</text>
 </segment>
 <segment>
 <pinref part="U$22" gate="G$1" pin="CIPO"/>
-<wire x1="154.94" y1="236.22" x2="152.4" y2="236.22" width="0.1524" layer="91"/>
-<label x="152.4" y="236.22" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="154.94" y1="238.76" x2="152.4" y2="238.76" width="0.1524" layer="91"/>
+<label x="152.4" y="238.76" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CS" class="0">
@@ -11003,8 +11007,8 @@ reset while programming flash</text>
 </segment>
 <segment>
 <pinref part="U$22" gate="G$1" pin="CS"/>
-<wire x1="154.94" y1="243.84" x2="152.4" y2="243.84" width="0.1524" layer="91"/>
-<label x="152.4" y="243.84" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="154.94" y1="246.38" x2="152.4" y2="246.38" width="0.1524" layer="91"/>
+<label x="152.4" y="246.38" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="RESETB" class="0">
@@ -11015,8 +11019,8 @@ reset while programming flash</text>
 </segment>
 <segment>
 <pinref part="U$22" gate="G$1" pin="RESETB"/>
-<wire x1="154.94" y1="246.38" x2="152.4" y2="246.38" width="0.1524" layer="91"/>
-<label x="152.4" y="246.38" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="154.94" y1="248.92" x2="152.4" y2="248.92" width="0.1524" layer="91"/>
+<label x="152.4" y="248.92" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="INT2" class="0">
@@ -11027,8 +11031,8 @@ reset while programming flash</text>
 </segment>
 <segment>
 <pinref part="U$22" gate="G$1" pin="INT2"/>
-<wire x1="154.94" y1="248.92" x2="152.4" y2="248.92" width="0.1524" layer="91"/>
-<label x="152.4" y="248.92" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="154.94" y1="251.46" x2="152.4" y2="251.46" width="0.1524" layer="91"/>
+<label x="152.4" y="251.46" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="INT1" class="0">
@@ -11039,8 +11043,8 @@ reset while programming flash</text>
 </segment>
 <segment>
 <pinref part="U$22" gate="G$1" pin="INT1"/>
-<wire x1="154.94" y1="251.46" x2="152.4" y2="251.46" width="0.1524" layer="91"/>
-<label x="152.4" y="251.46" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="154.94" y1="254" x2="152.4" y2="254" width="0.1524" layer="91"/>
+<label x="152.4" y="254" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="BOOT" class="0">
@@ -11051,8 +11055,8 @@ reset while programming flash</text>
 </segment>
 <segment>
 <pinref part="U$22" gate="G$1" pin="BOOT"/>
-<wire x1="154.94" y1="254" x2="152.4" y2="254" width="0.1524" layer="91"/>
-<label x="152.4" y="254" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="154.94" y1="256.54" x2="152.4" y2="256.54" width="0.1524" layer="91"/>
+<label x="152.4" y="256.54" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="FLSH_VCC" class="0">
@@ -11106,15 +11110,15 @@ reset while programming flash</text>
 </segment>
 <segment>
 <pinref part="U$22" gate="G$1" pin="G8"/>
-<wire x1="154.94" y1="259.08" x2="152.4" y2="259.08" width="0.1524" layer="91"/>
-<label x="152.4" y="259.08" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="154.94" y1="261.62" x2="152.4" y2="261.62" width="0.1524" layer="91"/>
+<label x="152.4" y="261.62" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
 <pinref part="D4" gate="G$1" pin="A"/>
-<wire x1="276.86" y1="243.84" x2="276.86" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="246.38" x2="276.86" y2="243.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -11126,18 +11130,18 @@ reset while programming flash</text>
 </segment>
 <segment>
 <pinref part="U$22" gate="G$1" pin="VIN"/>
-<wire x1="185.42" y1="236.22" x2="187.96" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="236.22" x2="187.96" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="238.76" x2="187.96" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="238.76" x2="187.96" y2="236.22" width="0.1524" layer="91"/>
 <pinref part="SUPPLY2" gate="G$1" pin="3.3V"/>
-<wire x1="187.96" y1="233.68" x2="193.04" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="236.22" x2="193.04" y2="236.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
 <pinref part="U$22" gate="G$1" pin="ANTENNA"/>
-<wire x1="185.42" y1="256.54" x2="195.58" y2="256.54" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="259.08" x2="195.58" y2="259.08" width="0.1524" layer="91"/>
 <pinref part="E1" gate="G$1" pin="SIGNAL"/>
-<wire x1="195.58" y1="256.54" x2="195.58" y2="259.08" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="259.08" x2="195.58" y2="261.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -11145,11 +11149,11 @@ reset while programming flash</text>
 </sheets>
 <errors>
 <approved hash="104,1,358.14,251.46,U1,VCC,FLSH_VCC,,,"/>
-<approved hash="104,1,185.42,236.22,U$22,VIN,3.3V,,,"/>
+<approved hash="104,1,185.42,238.76,U$22,VIN,3.3V,,,"/>
 <approved hash="208,1,403.86,264.16,VDD,sup,,,,"/>
-<approved hash="208,1,185.42,251.46,VDD,out,,,,"/>
-<approved hash="208,1,187.96,259.08,VDD,sup,,,,"/>
-<approved hash="208,1,276.86,256.54,VDD,sup,,,,"/>
+<approved hash="208,1,185.42,254,VDD,out,,,,"/>
+<approved hash="208,1,187.96,261.62,VDD,sup,,,,"/>
+<approved hash="208,1,276.86,259.08,VDD,sup,,,,"/>
 <approved hash="113,1,33.6973,251.297,J1,,,,,"/>
 <approved hash="113,1,57.7427,256.377,J3,,,,,"/>
 <approved hash="113,1,57.7427,236.057,J4,,,,,"/>
